@@ -29,7 +29,7 @@ jobs:
 
       # Build the application using Vite
       - name: Build Three.js App
-        run: npm run build
+        run: npx vite build
 
       # Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
